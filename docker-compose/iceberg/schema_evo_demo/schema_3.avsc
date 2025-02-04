@@ -1,0 +1,10 @@
+{
+    "type" : "record",
+    "namespace" : "com.redpanda.examples.avro",
+    "name" : "ClickEvent",
+    "fields" : [
+       { "name": "greeting", "type": "string"},
+       { "name": "event_type", "type" : "string" },
+       { "name": "user_id", "type" : "int" }
+    ]
+ }
